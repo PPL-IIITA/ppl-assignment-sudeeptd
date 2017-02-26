@@ -23,7 +23,10 @@ QUESTION 1
     Build the code using the following command (random input utility is included in the library itself):
     
     g++ q1.cpp girl_desperate.cpp  boy_geek.cpp boy_generous.cpp boy_miser.cpp girl_choosy.cpp girl_normal.cpp additional_functions.cpp
-
+    
+    And then give the command:
+    
+    ./a.out
     
     This will print the relationships in the console and a log.txt file will be generated.
 
@@ -34,5 +37,9 @@ QUESTION 2
     
     g++ q2.cpp girl_desperate.cpp  boy_geek.cpp boy_generous.cpp boy_miser.cpp girl_choosy.cpp girl_normal.cpp gift_utility.cpp gift_luxury.cpp gift_essential.cpp additional_functions.cpp additional_functions_2.cpp couple.cpp
 
+    And then give the command:
+    
+    ./a.out
+    
     In this, the value k is also randomly generated.
     This will print the gift exchanges , k happiest couples, k most compatible couples in the console and a log.txt file is created.
