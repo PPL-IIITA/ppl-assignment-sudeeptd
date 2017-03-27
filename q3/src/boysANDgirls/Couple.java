@@ -30,6 +30,8 @@ public class Couple {
 		this.gf = gf;
 		this.bf.setGf(gf);
 		this.gf.setBf(bf);
+		this.bf.setIs_committed(true);
+		this.gf.setIs_committed(true);
 		this.gifts = this.bf.Gifting(allgifts);
 		this.gf.setHappiness(this.gf.findHappiness(gifts));
 		this.bf.setHappiness(this.bf.findHappiness());
