@@ -23,7 +23,7 @@ public class GfFinderSorted extends GfFinder {
 		for(Couple c : couples) {
 			boys.add(c.getBf());
 		}
-		boys.sort(Comparator.comparing(Boy::getName));
+		boys.sort(Comparator.comparing(Boy::getBoynum));
 		this.setBoys(boys);
 		
 		// TODO Auto-generated constructor stub
