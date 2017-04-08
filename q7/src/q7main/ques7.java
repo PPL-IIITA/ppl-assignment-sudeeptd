@@ -38,7 +38,7 @@ public class ques7 {
 		Random rand = new Random();
 		int k = rand.nextInt(3) + 1;
 		// k=1 for array, k=2 for sorted array, k=3 for hash
-		k=3;
+		
 		switch(k) {
 		case 1 : find = new GfFinderArray(couples);
 				 break;
