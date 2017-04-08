@@ -96,7 +96,10 @@ abstract public class Boy {
 		this.money_spent = 0;
 	}
 	
-	
+	public int getBoynum() {
+		int k = Integer.parseInt(this.getName().substring(3));
+		return k;
+	}
 	public String getName() {
 		return name;
 	}
