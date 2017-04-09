@@ -5,11 +5,19 @@ PPL Assignment - IIT2015017- SUDEEPT DWIVEDI
     The repository contains two folders q1 and q2 each of which contains the Source Codes, Class Diagram and the Documentations. The codes are written in cpp.
 
 GETTING STARTED
-
+    FOR ques 1 and 2
     The Project was built in: BOSS GNU/Linux 6 (anoop) 64-bit
     The Project was built using: Sublime Text 3.
     The Documentation was made using Doxygen and Latex.
     The class Diagrams were made using StarUML.
+    
+    FOR ques 3 to 10
+    The Project was built in: BOSS GNU/Linux 6 (anoop) 64-bit
+    The Project was built using: Eclipse.
+    Java : javac 1.8.0_121
+    Build System : Apache Ant(TM) version 1.9.4
+    The Documentation was made using Javadoc.
+    The class Diagrams were made using Visual Paradigm .
 
 PREREQUISITES
 
