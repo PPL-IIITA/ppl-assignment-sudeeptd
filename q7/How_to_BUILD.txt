@@ -1,0 +1,11 @@
+The build system used is Apache Ant(TM) version 1.9.4
+The javac version is 1.8.0_121
+The OS is BOSS GNU/Linux 6 (anoop) 64-bit
+Additionally, make sure path variables are set properly.
+
+
+After downloading and extracting the zipped file, do these steps :
+
+1. Change the current directory to q7.
+2. Run this command : ant ques7
+3. Output will be generated on terminal.
