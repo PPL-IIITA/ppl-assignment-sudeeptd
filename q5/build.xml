@@ -39,4 +39,11 @@
             <classpath refid="q5.classpath"/>
         </java>
     </target>
+    <target name="javadocs" description="Generate JavaDoc API docs">
+        <delete dir="doc" failonerror="false" />
+        <mkdir dir="doc" />
+        <javadoc destdir="doc">
+           <fileset dir="."/>
+        </javadoc>
+    </target>
 </project>
