@@ -51,6 +51,8 @@ public class ques5 {
 
 			System.out.println("Allocating according to q5 Algo\n");
 		}
+		
+		a.happiest_couples(couples);
 	}
 
 }
