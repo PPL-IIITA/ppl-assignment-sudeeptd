@@ -9,3 +9,4 @@ After downloading and extracting the zipped file, do these steps :
 1. Change the current directory to q7.
 2. Run this command : ant ques7
 3. Output will be generated on terminal.
+4. To generate JAVADOC run this command : ant javadocs
