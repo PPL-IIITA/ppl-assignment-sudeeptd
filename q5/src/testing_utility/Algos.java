@@ -201,4 +201,25 @@ public class Algos {
 		
 	}
 	
+	/**
+	 * To print happiest and most compatible couples
+	 * @param couples list of couples formed
+	 */
+	public void happiest_couples(ArrayList<Couple> couples) {
+		Random rand = new Random();
+		int cnt=0,k = rand.nextInt(6) + 4;
+		
+		couples.sort(Comparator.comparing(Couple::getHappiness));
+		Collections.reverse(couples);
+		System.out.println("\n****************\nHappiest couples are\n");
+		
+		for(Couple c : couples) {
+			cnt++;
+			c.printCouple();
+			System.out.println("Happiness -- " + c.getHappiness()+"\n");
+			if(cnt==k)
+				break;
+		}
+	}
+	
 }
