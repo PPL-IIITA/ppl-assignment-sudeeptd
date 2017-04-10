@@ -7,6 +7,6 @@ Additionally, make sure path variables are set properly.
 After downloading and extracting the zipped file, do these steps :
 
 1. Change the current directory to q4.
-2. Run this command : ant ques4
+2. Run this command : ant. And then : ant ques4
 3. Output will be generated on terminal.
 4. To generate JAVADOC run this command : ant javadocs
