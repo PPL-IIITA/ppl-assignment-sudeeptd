@@ -3,6 +3,6 @@
 
 Generous_boy::Generous_boy()
 {
-
+  //commented lol :P
 }
 
